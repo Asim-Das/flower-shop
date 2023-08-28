@@ -1,0 +1,43 @@
+/* Common Styles  */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* Header area Styles */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    gap: 90px;
+    padding: 40px 200px 0 200px;
+    margin-bottom: 150px;
+}
+
+.title-name {
+    color: #272727;
+    font-size: 40px;
+}
+
+.flower-about {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.common-btn {
+    background: #E55473;
+    color: #FFF;
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: none;
+}
+
+.flower-pic img {
+    width: 450px;
+}
+
+/* Main area styles */
