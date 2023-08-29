@@ -99,6 +99,11 @@
     font-size: 30px;
 }
 
+.highlight-name {
+    color: #E55473;
+    ;
+}
+
 .instragram-area {
     padding: 0 150px;
     margin-bottom: 100px;
@@ -116,21 +121,33 @@
 
 .latest-deal {
     text-align: center;
-    padding-top: 100px;
 }
 
 #email {
     background-color: #FFF;
     border: none;
-    border-radius: 8px;
-    width: 700px;
-    height: 64px;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
 }
 
 .latestdeal-area {
-    /* background-image: url("../Flower-Asset/Rectangle 9.png"); */
     background-image: url('../Flower-Asset/Rectangle 9.png');
     background-size: cover;
-    height: 300px;
+    padding: 100px;
+    margin: 0 150px;
     margin-bottom: 100px;
+}
+
+footer {
+    background-color: #111010;
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
 }
