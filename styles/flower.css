@@ -8,6 +8,27 @@
 }
 
 /* Header area Styles */
+nav {
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111010;
+    font-size: 20px;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -137,6 +158,20 @@
     padding: 100px;
     margin: 0 150px;
     margin-bottom: 100px;
+}
+
+.our-showroom {
+    display: flex;
+    gap: 24px;
+}
+
+.our-showroom img {
+    width: 100%;
+}
+
+.our-showroom a {
+    text-decoration: none;
+    color: tomato;
 }
 
 footer {
