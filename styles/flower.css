@@ -22,10 +22,11 @@
     font-size: 40px;
 }
 
-.flower-about {
+.about {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    padding: 30px 0;
 }
 
 .common-btn {
@@ -41,3 +42,95 @@
 }
 
 /* Main area styles */
+.flowers-feature {
+    padding: 0 150px;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.flower-tree {
+    background-color: #A7216226;
+    border-radius: 49% 49% 0 0;
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.support-area {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 10px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.hotdeal-title,
+.insta-title {
+    color: #272727;
+    font-size: 30px;
+}
+
+.instragram-area {
+    padding: 0 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.insta-shoff {
+    display: flex;
+    gap: 24px;
+}
+
+.insta-shoff img {
+    width: 100%;
+}
+
+.latest-deal {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#email {
+    background-color: #FFF;
+    border: none;
+    border-radius: 8px;
+    width: 700px;
+    height: 64px;
+}
+
+.latestdeal-area {
+    /* background-image: url("../Flower-Asset/Rectangle 9.png"); */
+    background-image: url('../Flower-Asset/Rectangle 9.png');
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 100px;
+}
